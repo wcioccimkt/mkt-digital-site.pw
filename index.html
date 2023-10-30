@@ -2,27 +2,34 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+ 
+  <!--Titulo da pagina no navegador-->
+  <title>FORMULÁRIO CONTATO</title>
+
+
+  <!--Atributos da pagina (CSS)-->
 <style>
 body 
   
-  { 
+{ 
     background-color: #1e1e1e;
     font-family: Arial, sans-serif;
-    padding: 3%; 
+    padding: 2%; 
     color: white;
     margin: 10px;
     margin-top: auto;
     min-width: 320px; 
-    max-width: 1280px; 
+    max-width: 500px; 
     margin: auto; 
     
-
-   
 }
 
-form {
-  width: 410px;
+  <!--Início do formulário-->
+<form>
+
+ {
   margin: 0 auto;
+
 }
 
 input[type="text"], input[type="email"], input[type="tel"] {
@@ -34,7 +41,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
   text-align: left;
   
 }
-
+ 
 input[type="submit"] {
   background-color: yellow;
   color: #1e1e1e;
@@ -49,41 +56,44 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  opacity: 0.9;
+  opacity: 0.6;
 }
 </style>
 </head>
+  <!--Imagem topo-->
 <body>
 
   <center>
-    <div><img src="groovin duo.png" alt="logo_imagem" width="410px" ></center>
+    <div>
+      <img src="groovin duo.png" alt="logo_imagem" width="500px" ></center>
 
     </div>
    
    
   
-  
+  <!--Cabeçalho-->
 <h1>Fale com a gente</h1>
   
   <style>
     h1 { text-align: center; font-size: 24px;
-         padding: 30px;
+         padding: 20px;
     
     }
     
-    
+   <!--Caixas de texto-->
   </style>
 
-<form action="mailto:clarinsantista@gmail.com" method="post">
+<form action="mailto:email@exemplo.com.br" method="post">
   <label for="fname">Nome:</label><br>
-  <input type="text" id="name" name="name" placeholder="seu nome"><br>
+  <input type="text" id="name" name="name" placeholder="seu nome" required><br>
   
   <label for="phone">Whatsapp:</label><br>
-  <input type="tel" id="phone" name="phone" placeholder="whatsapp com DDD"><br>
+  <input type="tel" id="phone" name="phone" placeholder="whatsapp com DDD" required><br>
   
   <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"placeholder="seu email"><br>
+  <input type="email" id="email" name="email"placeholder="seu email" required><br>
   
+    <!-- Botão para enviar o formulário -->
   <input type="submit" value="Enviar">
   
 
