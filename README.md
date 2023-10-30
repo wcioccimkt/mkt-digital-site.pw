@@ -1,3 +1,3 @@
 # mkt-digital-site
-#Formulário responsivo
+#Formulário básico responsivo
 by wcioccimkt (C)2023
