@@ -10,7 +10,8 @@ body
     min-width: 500px; 
     max-width: 700px; 
     margin: auto; 
-        
+
+    
 }
 
 h1 
@@ -23,14 +24,15 @@ h1
 footer
 {
     background-color: black;
-    font-family: Roboto, sans-serif; font-size: 12px;
-    padding: 0.2%; 
+    font-family: roboto; font-size: 12px; text-align: center;
+    padding: 2%; 
     
 }
 
 
 
-  <!--Início do formulário-->
+  <!-- Início do formulário -->
+  
 <form>
 
  {
