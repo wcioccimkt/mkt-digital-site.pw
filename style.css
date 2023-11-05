@@ -11,18 +11,22 @@ body
     max-width: 800px; 
     margin: auto; 
     .header {
-       text-align: center; font-size: 16px; color: aqua; padding-top: 1%;
+       text-align: justify; font-size: 14px; color: aqua; padding-top: 1%;line-height: 2em;
      
     
 }    
-    .header-imagem {height: 240px; }
+.header-imagem 
+    {height: 240px; }
     
-.contato {font-size: 24px; text-align: center; color: white; padding: 8%;}
+.contato 
+{
+   font-size: 24px; text-align: center; color: white; padding: 8%;}
 
 }
 
-
-
+.player {
+  padding-top: 5%; width: 30%; height: 30px; 
+}
 
   <!-- Início do formulário -->
   
@@ -38,7 +42,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
   padding: 12px 20px;
   margin: 12px 0;
   box-sizing: border-box;
-  border-radius: 90px;
+  border-radius: 0px;
   text-align: left;
   
 }
@@ -46,12 +50,12 @@ input[type="text"], input[type="email"], input[type="tel"] {
 input[type="submit"] {
   background-color: yellow;
   color: #1e1e1e;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 12px 20px;
+  margin:12px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  border-radius: 90px;
+  border-radius: 0px;
  
   
 }
@@ -66,7 +70,7 @@ img {width: 100%;}
 {
     background-color: black;
     font-family: roboto; font-size: 12px; text-align: center;
-    padding: 2%; 
+    padding: 2%;
     
 }
 
