@@ -25,7 +25,7 @@ body
 }
 
 .player {
-  padding-top: 5%; width: 30%; height: 30px; 
+  padding-top: 5%; width: 30%; height: 50px; 
 }
 
   <!-- Início do formulário -->
@@ -40,7 +40,7 @@ body
 input[type="text"], input[type="email"], input[type="tel"]
  {
   width: 100%; 
-  padding: 12px 20px;
+  padding: 20px 20px;
   margin: 12px 0;
   box-sizing: border-box;
   border-radius: 0px;
@@ -51,7 +51,7 @@ input[type="text"], input[type="email"], input[type="tel"]
 input[type="submit"] {
   background-color: yellow;
   color: #1e1e1e;
-  padding: 12px 20px;
+  padding: 20px 20px;
   margin:12px 0;
   border: none;
   cursor: pointer;
@@ -67,10 +67,15 @@ input[type="submit"]:hover {
 
 img {width: 100%;}
 
+
+
+
+
+
 .footer
 {
     background-color: black;
-    font-family: roboto; font-size: 12px; text-align: center;
+    font-family: roboto; font-size: 8px; text-align: center;
     padding: 2%;
     
 }
