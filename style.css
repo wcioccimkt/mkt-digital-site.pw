@@ -10,13 +10,18 @@ body
     min-width: 320px; 
     max-width: 850px; 
     margin: auto; 
-    .header {
+    
+
+
+.header {
        text-align: left; font-size: 14px; color: aqua; padding-top: 1%;line-height: 2em;
      
     
 }    
 .header-imagem 
     {height: 240px; }
+  
+  
     
 .contato 
 {
@@ -28,7 +33,7 @@ body
   padding-top: 5%; width: 30%; height: 50px; 
 }
 
-  <!-- Início do formulário -->
+
   
 <form>
 
@@ -65,10 +70,9 @@ input[type="submit"]:hover {
   opacity: 0.6;
 }
 
+
+
 img {width: 100%;}
-
-
-
 
 
 
@@ -79,5 +83,4 @@ img {width: 100%;}
     padding: 2%;
     
 }
-
 
