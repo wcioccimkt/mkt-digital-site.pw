@@ -28,7 +28,7 @@ body
     .container {
       border-radius: 5px;
       background-color:white;
-      padding: 40px ;
+      padding: 30px ;
     }
 
     .contato
@@ -40,4 +40,4 @@ body
 
    .footer
    {
-    background-color: #1e1e1e;padding: 10px;color: white; text-align: center;font-size: 12px;}
+    background-color: #1e1e1e;padding: 10px;color: white; text-align: center;font-size: 8%;}
