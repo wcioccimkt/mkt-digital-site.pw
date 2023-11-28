@@ -1,5 +1,6 @@
 body 
 
+
     
     /* Style for the submit button */
     input[type=submit] {
@@ -19,13 +20,14 @@ body
       box-sizing: border-box;
       border: none;
       border-bottom: 2px solid green;
-      background-color: #d8d8d8
+      background-color: white;
+      
     }
 
     /* Style for the form container */
     .container {
       border-radius: 5px;
-      background-color: #f2f2f2;
+      background-color:white;
       padding: 90px ;
     }
 
