@@ -33,4 +33,7 @@ body
    {
     font-size: 32px; text-align: center; color: black; padding: 5%;}
 
-   }
+   
+   .footer
+   {
+    background-color: #1e1e1e;padding: 10px;color: white; text-align: center;font-size: 12px;}
