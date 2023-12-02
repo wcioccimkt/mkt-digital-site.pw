@@ -30,7 +30,7 @@ body
       background-color:white;
       padding: 30px ;
     }
-    .chamada {text-align: center;font-size: 22px;}
+    .chamada {text-align: center;font-size: 18px;}
 
     .logo {width:120px; height:120px;}
 
@@ -43,4 +43,4 @@ body
 
    .footer
    {
-    background-color: #1e1e1e;padding: 10px;color: white; text-align: center;font-size: 12px;}
+    background-color: #1e1e1e;padding: 10px;color: white; text-align: center;font-size: 10px;}
