@@ -5,8 +5,12 @@
 
 }
 
-body 
-
+body {
+padding: 2%;  
+margin-top: auto; 
+min-width: 320px; 
+max-width: 850px; 
+margin: auto;} 
 
     
     /* Style for the submit button */
@@ -57,10 +61,11 @@ body
     {
     background-color: #1e1e1e;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     padding: 1rem; 
     color: white; 
     text-align: center;font-size: 10px;
+    
     
   }
 
