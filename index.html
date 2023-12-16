@@ -30,8 +30,33 @@
 .image {
 width: 100%; align-items: center; padding: 0;}
 
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+.gallery-items{
+    width: 540px;
+    height: 540px;
+    border: 10px solid #FFF;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform .5s linear;
+    width: 100%;
+    height: 100%;
+}
+.gallery-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 header {
-  background-color: #008CBA;
+  background-color: #288383;
   color: #fff;
   padding: 20px;
 }
@@ -92,18 +117,18 @@ input[type="tel"] {
 input[type="submit"] {
   width: 30%;
   padding: 10px;
-  background-color: #008CBA;
+  background-color: #288383;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #006495;
+  background-color: #407878;
 }
 
 footer {
-  background-color: #008CBA;
+  background-color: #288383;
   color: #fff;
   padding: 5px;
   text-align: center;
@@ -129,9 +154,32 @@ footer {
       <img class="image" src="sala_433PW.webp" alt="vista varanda para o mar">
       </section>
       
+      <h2>Conheça as Plantas</h2>
+      <hr>
+      <br>
+
+      <main>
+      <div
+        class="gallery-container">
+        <a href class= "Planta Humanizada - Torre Jardim - 224m2 - 1080.jpg">
+            <img src="Planta Humanizada - Torre Jardim - 224m2 - 1080.jpg" alt="planta humanizada 224m">
+        </a>
+        <a href class="Planta Humanizada - Torre Jardim - 315m2 - 1080.jpg">
+            <img src="Planta Humanizada - Torre Jardim - 315m2 - 1080.jpg" alt="planta humanizada 315m">
+        </a>
+        <a href class="Planta Humanizada - Torre Orla - 433m2 - 1080.jpg">
+            <img src="Planta Humanizada - Torre Orla - 433m2 - 1080.jpg" alt="planta humanizada 433m">
+        </a>
+
+      </div>
+
+
+      </main>
       
-     
-    <section>
+
+
+
+      <section>
     
       <h2>Solicite mais informações</h2>
       <form action="https://formspree.io/f/xrgwwqje"
