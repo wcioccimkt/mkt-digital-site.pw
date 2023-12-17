@@ -20,8 +20,9 @@ body {
 .image {
 width: 100%; 
 border-radius:8px;
-center; 
 padding: 0;
+column-count:2;
+
 }
 
 .gallery-container{
@@ -50,7 +51,10 @@ height: 100%;
 
 }
 
+h2 {text-align: center;
+    padding: 30px;
 
+}
 header {
 background-color: #288383;
 color: #fff;
