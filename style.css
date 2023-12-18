@@ -32,6 +32,7 @@ padding: 10px;
 width: 100%; 
 flex-direction: column;
 gap: 20px;
+padding: 20px;
 
 
 }
@@ -87,6 +88,7 @@ form {
 
 margin: auto;
 max-width: 500px; 
+padding: 20px;
 
 }
 
