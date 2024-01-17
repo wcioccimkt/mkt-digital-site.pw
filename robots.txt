@@ -3,3 +3,4 @@ User-agent: *
 Allow: / 
 Disallow: 
 
+Sitepam: https://residencialpw36.vercel.app/sitemap.xml
